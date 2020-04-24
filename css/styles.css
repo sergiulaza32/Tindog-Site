@@ -1,0 +1,165 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.title-container {
+    padding: 3% 15%;
+}
+
+.download-button {
+    margin-right: 20px;
+    font-family: "Ubuntu";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.rotate25 {
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-family: "Ubuntu";
+}
+
+.dogphone {
+    margin-top: 30px;
+    width: 60%;
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.h3-cta {
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.social-media {
+    margin: 20px 10px 20px;
+}
+
+@media (max-width: 990px) {
+    .dogphone {
+        position: relative;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
